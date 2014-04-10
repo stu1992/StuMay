@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-10T21:59:04+10:00
+
+====== Initial concept ======
+
+Blog - wordpress
+skills – watered down resume
+Projects – including the home page
+about - even more watered down resume
