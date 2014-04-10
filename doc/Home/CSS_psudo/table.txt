@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-11T00:08:12+10:00
+
+====== table ======
+Created Friday 11 April 2014
+
+table
+{
+// forcing height and width
+//height a few hundred pixels
+
+//center too
+}
