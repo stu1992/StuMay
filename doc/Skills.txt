@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-10T23:22:03+10:00
+
+====== Skills ======
+Created Thursday 10 April 2014
+
+Like all decent software developers, I have knowledge of a wide range of technologies.
+
+My personal specialties are in:
+Linux
+C/C++
+Java
+Python
+HTML
+
+I'm comfortable with
+Windows
+Bash
+CSS
+mysql
+C#
+PHP
+2D/3D development
+
+
+I have basic knowledge of
+javascript
+Perl
+ASM
+electronic circuits
