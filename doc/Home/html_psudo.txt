@@ -4,40 +4,45 @@ Creation-Date: 2014-04-10T23:37:58+10:00
 
 ====== html psudo ======
 Created Thursday 10 April 2014
-
+filename: index.html
 <html>
 
 	<head>
 	
 		<title>STU MAY</title>
+		<link rel="stylesheet" type="text/css" href="[[CSS psudo|style]].css">
 		
 	</head>
 
 	<body>
 	
-		<table> give table a border for debugging purposes 
-		
-			<tr>
+		<div id="[[CSS psudo:wrapper|wrapper]]">
+
+			<table border="1">
 			
-				<td>
-					<input class="[[CSS psudo:button|button]]" type="button">About</input>
-				</td>
+				<tr>
 				
-				<td>
-					<input class="[[CSS psudo:button|button"]] type="button">Skills</input>
-				</td>
+					<td>
+						<input class="[[CSS psudo:button|button]]" type="button" value="About" />
+					</td>
+					
+					<td>
+						<input class="[[CSS psudo:button|button"]] type="button" value="Skills" />
+					</td>
+					
+					<td>
+						<input class="[[CSS psudo:button|button]]" type="button" value="Blog" />
+					</td>
+					
+					<td>
+						<input class="[[CSS psudo:button|button]]" type="button" value="Projects" />
+					</td>
 				
-				<td>
-					<input class="[[CSS psudo:button|button]]" type="button">Blog</input>
-				</td>
-				
-				<td>
-					<input class="[[CSS psudo:button|button]]" type="button">Projects</input>
-				</td>
+				</tr>
 			
-			</tr>
-		
-		</table>
+			</table>
+
+		</div>
 	
 	</body>
 
