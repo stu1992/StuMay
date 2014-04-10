@@ -4,7 +4,24 @@ Creation-Date: 2014-04-10T21:59:04+10:00
 
 ====== Initial concept ======
 
-Blog - wordpress
+The index page will essentially be links to other pages
+[[Blog]] - wordpress, will have a picture of my skateboarding
 skills – watered down resume
-Projects – including the home page
-about - even more watered down resume
+[[Projects]] – including the home page
+about - contact information
+
+This page will be a centered table on the screen.
+The table will contain large buttons lined up horizontally across the center.
+the buttons will be labled
+[[About]] [[Skills]] [[Blog]] [[Projects]]
+
+About will be the main page with the most important information. How to contact me
+second from that will be more indepth information about my skills for the sake of an online resume
+the third button will be the blog. This will likely be the most active part of the site and will hold attention after the initial information
+The last is the Links to things I'm working on. This is last to draw attention to other things. Arguable it's the most important because An entrepreneur isn't really an entrepreneur without having active projects but for 99.9% of uptime, it's more important to emphasise that I'm talented and not what I have done with the talent.
+
+The background will be a picture of me and this will change as different buttons are mouseover'd
+When the mouse cursor enters the horizontal domain of a button, the button will be moved at a constant speed up or down until it is centered under the button.
+When the curson leaved the domain, the button will return to center.
+If a mouse over action occurs for a second, the background picture will change accordingly.
+When a button is clicked, the other buttons will sink to the bottom of the screen, once they are on the bottom, a timer will run for a second and the redirection will occur.
