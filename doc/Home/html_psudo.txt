@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-10T23:37:58+10:00
+
+====== html psudo ======
+Created Thursday 10 April 2014
+
+<html>
+
+	<head>
+	
+		<title>STU MAY</title>
+		
+	</head>
+
+	<body>
+	
+		<table> give table a border for debugging purposes 
+		
+			<tr>
+			
+				<td>
+					<input class="[[CSS psudo:button|button]]" type="button">About</input>
+				</td>
+				
+				<td>
+					<input class="[[CSS psudo:button|button"]] type="button">Skills</input>
+				</td>
+				
+				<td>
+					<input class="[[CSS psudo:button|button]]" type="button">Blog</input>
+				</td>
+				
+				<td>
+					<input class="[[CSS psudo:button|button]]" type="button">Projects</input>
+				</td>
+			
+			</tr>
+		
+		</table>
+	
+	</body>
+
+</html>
