@@ -6,4 +6,16 @@ Creation-Date: 2014-04-11T23:44:57+10:00
 Created Friday 11 April 2014
 
 I'm going to set up a javascript file to take mouse over events for buttons, to change the wrapper background image
-We already have most of the sites functionailty, It is after all just a webpage with buttons. I will figure out a versioning system and tag my first stable release
+We already have most of the sites functionailty, It is after all just a webpage with buttons.
+
+The versioning system used will be as follows
+
+major.minor.patch:
+
+    Major version numbers change whenever there is something significant, a large or potentially backward-incompatible change to a software package.
+    Minor version numbers change when a new, minor feature is introduced, or when a set of smaller features is rolled out.
+    Patch numbers change when a new build of the software is released to customers. This is normally for small bugfixes or the like.
+
+[[version:0.1.0|0.1.0]]
+	make all buttons work and provide pages for each button. The site is essentially functional but wont be deployed yet
+

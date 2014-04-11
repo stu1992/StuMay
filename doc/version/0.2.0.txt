@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-12T00:02:32+10:00
+
+====== 0.2.0 ======
+Created Saturday 12 April 2014
+
+I will introduce javascript functionality in the home page with button mouse overs
+If a button is moused over, after a second, the wrapper image will change
+
+I will have basic interactivity and the page will look good

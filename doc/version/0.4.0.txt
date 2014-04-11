@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-12T00:08:16+10:00
+
+====== 0.4.0 ======
+Created Saturday 12 April 2014
+
+When the cursor enteres the horizontal domain of the buttons cell, the button will move towards the curson until it's under the cursor
+when the mouse leaves the domain, the button will return the the center

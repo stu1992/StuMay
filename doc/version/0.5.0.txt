@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-12T00:10:20+10:00
+
+====== 0.5.0 ======
+Created Saturday 12 April 2014
+
+when a button is pressed. In the pause before redirection as noted in spec [[0.3.0]], the other buttons will fall the the bottom of the table

@@ -7,3 +7,5 @@ Created Thursday 10 April 2014
 
 git repos as well as links to web sites
 [[home]] repository
+
+this will eventually feature some interactive animation but that's for later
