@@ -25,3 +25,5 @@ When the mouse cursor enters the horizontal domain of a button, the button will 
 When the curson leaved the domain, the button will return to center.
 If a mouse over action occurs for a second, the background picture will change accordingly.
 When a button is clicked, the other buttons will sink to the bottom of the screen, once they are on the bottom, a timer will run for a second and the redirection will occur.
+
+Fun fact. This project has taken 4:29 man hours so far...
