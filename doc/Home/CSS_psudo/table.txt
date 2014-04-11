@@ -7,9 +7,7 @@ Created Friday 11 April 2014
 
 table
 {
-	width: 800px; // takes up the full wrapper div by default
-	// might make it more
-	height: 500px; // takes up most of the virticle real estate
-	background-color: blue; //debugging
+	width: 100%; // takes up the full wrapper div by default
+	height: 100%; // takes up most of the virticle real estate
 	margin: auto; // center it by default
 }

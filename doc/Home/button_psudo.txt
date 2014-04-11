@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-11T23:38:00+10:00
+
+====== button psudo ======
+Created Friday 11 April 2014
+
+filename: button.css
+.button

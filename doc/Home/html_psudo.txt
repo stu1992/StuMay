@@ -23,19 +23,19 @@ filename: index.html
 				<tr>
 				
 					<td>
-						<input class="[[CSS psudo:button|button]]" type="button" value="About" />
+						<input class="[[button psudo:button|button]]" type="button" value="About" />
 					</td>
 					
 					<td>
-						<input class="[[CSS psudo:button|button"]] type="button" value="Skills" />
+						<input class="[[button psudo:button|button]]" type="button" value="Skills" />
 					</td>
 					
 					<td>
-						<input class="[[CSS psudo:button|button]]" type="button" value="Blog" />
+						<input class="[[button psudo:button|button]]" type="button" value="Blog" />
 					</td>
 					
 					<td>
-						<input class="[[CSS psudo:button|button]]" type="button" value="Projects" />
+						<input class="[[button psudo:button|button]]" type="button" value="Projects" />
 					</td>
 				
 				</tr>

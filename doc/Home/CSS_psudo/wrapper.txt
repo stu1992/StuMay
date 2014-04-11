@@ -7,7 +7,9 @@ Created Thursday 10 April 2014
 
 .wrapper
 {
-	width: 800px; // not the full screen but enough real estate
-	background-color: red; // make it stand out
+	width: 900px; // not the full screen but enough real estate
+	background-image: url('face.jpg); // will change this dynamically
+	background-size: cover; // scale to fit
+	height: 95%;
 	margin: auto; // center it by default
 }
