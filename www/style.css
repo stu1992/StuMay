@@ -1,8 +1,12 @@
+body
+{
+   background: lightgrey;
+}
 #wrapper
 {
    width: 900px;
    background-image: url('face.jpg');
-   background-size: contain;
+   background-size: cover;
    height: 95%;
    margin: auto;
 }
