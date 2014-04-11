@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-04-11T23:44:57+10:00
+
+====== TODO ======
+Created Friday 11 April 2014
+
+I'm going to set up a javascript file to take mouse over events for buttons, to change the wrapper background image
+We already have most of the sites functionailty, It is after all just a webpage with buttons. I will figure out a versioning system and tag my first stable release
