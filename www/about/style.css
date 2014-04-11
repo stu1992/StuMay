@@ -1,0 +1,11 @@
+body
+{
+   background: lightgrey;
+}
+#wrapper
+{
+   width: 900px;
+   height: 95%;
+   margin: auto;
+}
+

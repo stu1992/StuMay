@@ -19,3 +19,5 @@ major.minor.patch:
 [[version:0.1.0|0.1.0]]
 	make all buttons work and provide pages for each button. The site is essentially functional but wont be deployed yet
 
+	work on skills page
+

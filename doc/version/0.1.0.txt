@@ -10,3 +10,6 @@ I will create an [[About]], [[skills]] and [[projects]] page as per the spec
 I will make all the buttons on the home page actively like the them
 
 I have a minimally functional site that could be deployed online
+
+
+About page created
