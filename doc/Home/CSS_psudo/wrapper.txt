@@ -7,6 +7,7 @@ Created Thursday 10 April 2014
 
 .wrapper
 {
-// center the whole site on the screen
-// might not be needed if we can just use the table
+	width: 800px; // not the full screen but enough real estate
+	background-color: red; // make it stand out
+	margin: auto; // center it by default
 }
