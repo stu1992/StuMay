@@ -9,3 +9,8 @@ I will introduce javascript functionality in the home page with button mouse ove
 If a button is moused over, after a second, the wrapper image will change
 
 I will have basic interactivity and the page will look good
+
+After research into this. I have decide that having a opacity fade is not worth the effort redesigning the page
+I will try again to make the screen go white]
+
+I'm calling this done. It goes white then gives me the other picture, this is what I originally wanted and the alternative is a bit too much work for the little payoff
