@@ -4,5 +4,14 @@ Creation-Date: 2014-04-12T14:54:34+10:00
 
 ====== javascript ======
 Created Saturday 12 April 2014
+filename: buttons.js
 
-created file but will imediatly branch from here
+function redirect(page) {
+alert(page);
+var url=new Array();
+url[0]="about/index.html";
+url[1]="skills/index.html";
+url[2]="http://stumay1992.wordpress.com/";
+url[3]="projects/index.html";
+window.location=url[page];
+}
