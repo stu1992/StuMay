@@ -20,6 +20,7 @@ major.minor.patch:
 	
 	make images fade
 	
+	i will use setTimeout
 	to do this i'm going to need to make a branch
 	basically i will animate the table background color/transperancy to be white
 	then i will change the backgournd image
