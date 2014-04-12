@@ -6,3 +6,4 @@ Creation-Date: 2014-04-11T23:56:07+10:00
 Created Friday 11 April 2014
 
 make all links redirect to pages
+I'm making a javascript file to provide basic functions for buttons wich will be extended later
