@@ -5,5 +5,5 @@ Creation-Date: 2014-04-11T23:56:07+10:00
 ====== version ======
 Created Friday 11 April 2014
 
-currently [[0.1.0]]
-next milestone [[0.2.0]]
+currently [[version:0.2.0|0.2.0]]
+next milestone [[version:0.3.0|0.3.0]]

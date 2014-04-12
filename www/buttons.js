@@ -1,3 +1,6 @@
+function moveTo(page) {
+setTimeout(function(){redirect(page)},1000);
+}
 function redirect(page) {
 var url=new Array();
 url[0]="about/index.html";
