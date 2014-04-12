@@ -13,4 +13,4 @@ stumay1992@gmail.com
 0411 541 122
 www.facebook.com/stu.may.12
 
-using this picture for the link
+using this [[~/projects/stumay/www/jpg/about.jpg|picture]] for the link

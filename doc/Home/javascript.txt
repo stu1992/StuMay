@@ -15,3 +15,15 @@ url[2]="http://stumay1992.wordpress.com/";
 url[3]="projects/index.html";
 window.location=url[page];
 }
+
+will set up a function to swapping images on the home screen
+
+function swapImage(page) {
+var url = new Array();
+url[0]="jpg/about.jpg";
+url[1]="jpg/skills.jpg";
+url[2]="jpg/blog.jpg";
+url[3]="jpg/projects.jpg";
+// define image locations
+document.getElementById('wrapper').style.backgroundImage = "url("+url[page]+")";
+}

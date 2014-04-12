@@ -18,6 +18,5 @@ major.minor.patch:
 
 [[version:0.2.0|0.2.0]]
 	
-	set up foundation for image loading
+	make images fade
 	
-	set up function to swap on mouse over
