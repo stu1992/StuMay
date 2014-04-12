@@ -20,7 +20,15 @@ document.getElementById('wrapper').style.backgroundImage = "url("+url[page]+")";
 }
 
 function fadeIn(page) {
- document.getElementById('t').style.backgroundColor = "white";
+// this gives me the images
+var url = new Array();
+url[0]="jpg/about.jpg";
+url[1]="jpg/skills.jpg";
+url[2]="jpg/blog.jpg";
+url[3]="jpg/projects.jpg";
+url[4]="jpg/home.jpg"; // this is for mouseout actions
+
+ document.getElementById('t').style.backgroundImage = document.getElementById('wrapper').style.backgroundImage;
  // will make the table white over time
 }
 function fadeOut(page) {
@@ -30,7 +38,7 @@ document.getElementById('t').style.backgroundColor = "transparent";
 var init;
 function image(page) {
 clearTimeout(init);
-//setTimeout(function(){fadeIn(page)}, 1000);
+setTimeout(function(){fadeIn(page)}, 1000);
 init = setTimeout(function(){swapImage(page)},1000);
-//setTimeout(function a(){fadeOut(page)}, 1000);
+setTimeout(function a(){fadeOut(page)}, 1000);
 }
