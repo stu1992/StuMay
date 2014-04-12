@@ -16,3 +16,8 @@ url[3]="jpg/projects.jpg";
 // define image locations
 document.getElementById('wrapper').style.backgroundImage = "url("+url[page]+")";
 }
+
+function defaultImage() {
+document.getElementById('wrapper').style.backgroundImage = "url(jpg/home.jpg)";
+
+}
