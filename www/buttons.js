@@ -19,17 +19,18 @@ url[4]="jpg/home.jpg"; // this is for mouseout actions
 document.getElementById('wrapper').style.backgroundImage = "url("+url[page]+")";
 }
 
-
-function fadeIn() {
+function fadeIn(page) {
  document.getElementById('t').style.backgroundColor = "white";
  // will make the table white over time
 }
-function fadeOut() {
-// will make the table transparent again, showing the background image
+function fadeOut(page) {
 document.getElementById('t').style.backgroundColor = "transparent";
+   
 }
+var init;
 function image(page) {
-setTimeout(fadeIn, 500); // this will be called even if the mouse out event occures so i will need a variable to handle that
-setTimeout(function a(){swapImage(page)},500);
-setTimeout(fadeOut, 1000);
+clearTimeout(init);
+//setTimeout(function(){fadeIn(page)}, 1000);
+init = setTimeout(function(){swapImage(page)},1000);
+//setTimeout(function a(){fadeOut(page)}, 1000);
 }

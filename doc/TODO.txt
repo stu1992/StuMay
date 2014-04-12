@@ -19,9 +19,8 @@ major.minor.patch:
 [[version:0.2.0|0.2.0]]
 	
 	make images fade
-	
-	i will use setTimeout
-	to do this i'm going to need to make a branch
+	I have mouse over for a while changing background, without bugs
+
 	basically i will animate the table background color/transperancy to be white
 	then i will change the backgournd image
 	then i will transition the background color again t transparent
