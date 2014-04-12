@@ -16,8 +16,10 @@ major.minor.patch:
     Minor version numbers change when a new, minor feature is introduced, or when a set of smaller features is rolled out.
     Patch numbers change when a new build of the software is released to customers. This is normally for small bugfixes or the like.
 
-[[version:0.1.0|0.1.0]]
-	make all buttons work and provide pages for each button. The site is essentially functional but wont be deployed yet
+[[version:0.2.0|0.2.0]]
 
-
-
+	obtain some images to test future javascript functions
+	
+	set up foundation for image loading
+	
+	set up function to swap on mouse over
