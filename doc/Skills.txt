@@ -29,3 +29,5 @@ javascript
 Perl
 ASM
 electronic circuits
+
+using this [[~/projects/stumay/www/jpg/skills.jpg|picture]] for skills

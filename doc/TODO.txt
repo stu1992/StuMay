@@ -17,8 +17,6 @@ major.minor.patch:
     Patch numbers change when a new build of the software is released to customers. This is normally for small bugfixes or the like.
 
 [[version:0.2.0|0.2.0]]
-
-	obtain some images to test future javascript functions
 	
 	set up foundation for image loading
 	

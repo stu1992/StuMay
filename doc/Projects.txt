@@ -9,3 +9,5 @@ git repos as well as links to web sites
 [[home]] repository
 
 this will eventually feature some interactive animation but that's for later
+
+using this [[~/projects/stumay/www/jpg/projects.jpg|picture]] for projects

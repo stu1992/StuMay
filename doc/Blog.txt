@@ -6,3 +6,6 @@ Creation-Date: 2014-04-10T22:39:13+10:00
 Created Thursday 10 April 2014
 
 the blog link will link directly to my wordpress blog or if it suits better, have my own rss feed style layout with links to the blog
+
+using this [[~/projects/stumay/www/jpg/blog.jpg|picture]] for the link
+
