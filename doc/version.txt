@@ -5,4 +5,4 @@ Creation-Date: 2014-04-11T23:56:07+10:00
 ====== version ======
 Created Friday 11 April 2014
 
-wor
+make all links redirect to pages
