@@ -23,19 +23,27 @@ filename: index.html
 				<tr>
 				
 					<td>
-						<input class="[[button psudo:button|button]]" type="button" value="About" />
+						<div class="hotspot" id="1">
+							<input class="[[button psudo:button|button]]" type="button" value="About" />
+						</div>
 					</td>
 					
 					<td>
-						<input class="[[button psudo:button|button]]" type="button" value="Skills" />
+						<div class="hotspot" id="2">
+							<input class="[[button psudo:button|button]]" type="button" value="Skills" [[/>]]
+						</div>
 					</td>
 					
 					<td>
-						<input class="[[button psudo:button|button]]" type="button" value="Blog" />
+						<div class="hotspot" id="3">
+							<input class="[[button psudo:button|button]]" type="button" value="Blog" [[/>]]
+						</div>
 					</td>
 					
 					<td>
-						<input class="[[button psudo:button|button]]" type="button" value="Projects" />
+						<div class="hotspot" id="4">
+							<input class="[[button psudo:button|button]]" type="button" value="Projects" [[/>]]
+						</div>
 					</td>
 				
 				</tr>
