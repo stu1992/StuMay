@@ -27,3 +27,10 @@ table
     -ms-transition: background-color 500ms linear;
     transition: background-color 500ms linear;
     }
+
+.hotspot
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}

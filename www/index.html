@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
                 <link rel="stylesheet" type="text/css" href="button.css">
                 <script type="text/javascript" src="buttons.js"></script> 
+                <script type="text/javascript" src="hover.js"></script>
 		
 	</head>
 
@@ -17,26 +18,26 @@
 				<tr>
 				
 					<td>
-                                             <div class="hotspot" id="1">
-						<input class="button" type="button" value="About" onclick="moveTo(0)" onmouseover="image(0)" onmouseout="image(4)" />
+                                             <div class="hotspot" onmousemove="hover_update(event, 1)" onmouseout="hover_update(event, 0)">
+						<input class="button" id="1" type="button" value="About" onclick="moveTo(0)" onmouseover="image(0)" onmouseout="image(4)" />
                                              </div>
 					</td>
 					
 					<td>
-                                              <div class="hotspot" id="2">
-						<input class="button" type="button" value="Skills" onclick="moveTo(1)" onmouseover="image(1)" onmouseout="image(4)" />
+                                              <div class="hotspot" onmousemove="hover_update(event, 2)"onmouseout="hover_update(event, 0)">
+						<input class="button" id="2" type="button" value="Skills" onclick="moveTo(1)" onmouseover="image(1)" onmouseout="image(4)" />
                                              </div>
 					</td>
 					
 					<td>
-                                             <div class="hotspot" id="3">
-						<input class="button" type="button" value="Blog" onclick="moveTo(2)" onmouseover="image(2)" onmouseout="image(4) "/>
+                                             <div class="hotspot" onmousemove="hover_update(event, 3)"onmouseout="hover_update(event, 0)">
+						<input class="button" id="3" type="button" value="Blog" onclick="moveTo(2)" onmouseover="image(2)" onmouseout="image(4) "/>
                                              </div>
 					</td>
 					
 					<td>
-                                             <div class="hotspot" id="4">
-						<input class="button" type="button" value="Projects" onclick="moveTo(3)" onmouseover="image(3)" onmouseout="image(4)" />
+                                             <div class="hotspot" onmousemove="hover_update(event, 4)"onmouseout="hover_update(event, 0)">
+						<input class="button" id="4" type="button" value="Projects" onclick="moveTo(3)" onmouseover="image(3)" onmouseout="image(4)" />
                                              </div>
 					</td>
 				
