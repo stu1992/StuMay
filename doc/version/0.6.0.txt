@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2014-05-04T16:33:58+10:00
-
-====== 0.6.0 ======
-Created Sunday 04 May 2014
-
-The background color of the button will light up, giving a responce to the user
