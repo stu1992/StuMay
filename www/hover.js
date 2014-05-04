@@ -50,12 +50,12 @@ function delta(button, relatedObject){
          initPosition = 50;
       }
       var delta = mouseY - (initPosition);
-            if(delta >= +20){
+            if(delta >= +20+50){
         return (initPosition+20-(11));
-      }else if(delta <= -20){
+      }else if(delta <= -20+50){
          return (initPosition-20-(11));
       }else{
-        return mouseY-(11); 
+        return mouseY-50; 
       }
    }
    else if(relatedObject == "center"){ // we're moving by 10 each way
