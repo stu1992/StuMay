@@ -20,3 +20,38 @@ alert("X coords: " + x + ", Y coords: " + y);
 this script shows that you can get relative mouse positions
 I can add div elements into each table data field, with that i can pass the relative mouse position (which will eliminate a lot of messy calculations
 i can also pass the element number so i know which button is being influenced and make the rest return to center if required
+
+<script>
+//script is run on mousemove over divs
+global variables
+	var activeButton = 0; // 0 is none, 1..4 are active buttons
+	var redirect = false; // redirection makes all buttoms sink to the bottom
+function show_coords(event, cellnum)
+{
+//var x=event.clientX;
+var y=event.clientY;
+alert("Y: " + y);
+}
+
+timimg function(){
+	for each button{
+		if(activeButton == thisButton){
+			button.y(if only amiright) += maybe_have_a_delta_function(this, "mouse")
+		}
+		else if(redirect == true){
+			button.y(if only amiright) += maybe_have_a_delta_function(this, "floor")
+		}
+		else{ // return to center
+			button.y(if only amiright) += maybe_have_a_delta_function(this, "center")
+		}
+	}
+}
+maybe have a delta function(button, related object){
+	if related object is mouse
+		get direction of movement and return relivant translation
+	else if related ojbect is center
+		get direction of movement to return to center
+	else if related object is floor
+		get direction of movement to return to bottom, will be negiative or 0
+}
+</script>
