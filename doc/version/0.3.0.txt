@@ -6,6 +6,4 @@ Creation-Date: 2014-04-12T00:04:21+10:00
 Created Saturday 12 April 2014
 
 after a button click, there will be a second delay before redirection
-The background color of the button will light up, giving a responce to the user
-
 I have the second delay
