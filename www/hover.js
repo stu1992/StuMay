@@ -45,25 +45,26 @@ function delta(button, relatedObject){
    if(relatedObject == "mouse"){
       var initPosition = (button.getBoundingClientRect().top);
       if(initPosition > 600){
-         //initPosition = 600);
+         initPosition = 600;
+      }else if(initPosition <50){
+         initPosition = 50;
       }
       var delta = mouseY - (initPosition);
-      //alert(delta);
-            if(delta >= 40){
-        return (initPosition+5);
-      }else if(delta <= -50){
-         return (initPosition-20);
+            if(delta >= +20){
+        return (initPosition+20-(11));
+      }else if(delta <= -20){
+         return (initPosition-20-(11));
       }else{
-        return mouseY-40; 
+        return mouseY-(11); 
       }
    }
-   else if(relatedObject == "center"){
+   else if(relatedObject == "center"){ // we're moving by 10 each way
       var initPosition = (button.getBoundingClientRect().top);
       var delta = center - initPosition;
-                  if(delta >= 40){
-        return (initPosition+5);
-      }else if(delta <= -50){
-         return (initPosition-20);
+                  if(delta >= (-11)+10){
+        return (initPosition+10-(11)); // initPosition - 11 is stationary
+      }else if(delta <= (-11)-10){
+         return (initPosition-10-(11));
       }else{
         return center; 
       }
