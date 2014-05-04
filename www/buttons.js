@@ -1,4 +1,5 @@
 function moveTo(page) {
+activeButton = 5;
 setTimeout(function(){redirect(page)},1000);
 }
 function redirect(page) {

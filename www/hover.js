@@ -6,6 +6,9 @@ var mouseY = 0;
 
 function hover_update(event, hotspot)
 {
+   if(activeButton==5){
+      return;
+   }
 //var x=event.clientX;
 mouseY=event.clientY;
 //alert("Y: " + mouseY + "button: " + hotspot);
@@ -14,7 +17,6 @@ activeButton = hotspot;
 var pos = document.getElementById(hotspot).getBoundingClientRect();
 //alert(pos.top);
 var button = document.getElementById(hotspot);
-var center = 100;
 }
 
 
@@ -27,6 +29,8 @@ function timing_function(){
    for ( var i = 0; i < 4 ; i ++){
       if(activeButton == i+1){
       buttons[i].style.top = delta(buttons[i], "mouse");// mouseY - (pos.bottom - pos.top)/2 - 10; // 10 deals with padding or something ;)
+      }else if(activeButton == 5){
+      buttons[i].style.top = delta(buttons[i], "floor");// mouseY - (pos.bottom - pos.top)/2 - 10; // 10 deals with padding or something ;)
       }else{
        buttons[i].style.top = delta(buttons[i], "center");// mouseY - (pos.bottom - pos.top)/2 - 10; // 10 deals with padding or something ;)
    
@@ -64,5 +68,11 @@ function delta(button, relatedObject){
         return center; 
       }
 
+   }
+   else if(relatedObject == "floor"){
+      var initPosition = (button.getBoundingClientRect().top);
+      if(initPosition < floor){
+         return initPosition+5;
+      }
    }
 }
