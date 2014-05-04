@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-05-04T16:37:46+10:00
+
+====== hover.js ======
+Created Sunday 04 May 2014
+
+filename: hover.js
+// this will handle verticle movement of buttons
+
+<script>
+function show_coords(event)
+{
+var x=event.clientX;
+var y=event.clientY;
+alert("X coords: " + x + ", Y coords: " + y);
+}
+</script>
+
+this script shows that you can get relative mouse positions
+I can add div elements into each table data field, with that i can pass the relative mouse position (which will eliminate a lot of messy calculations
+i can also pass the element number so i know which button is being influenced and make the rest return to center if required
