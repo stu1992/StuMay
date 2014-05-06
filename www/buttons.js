@@ -6,7 +6,7 @@ function redirect(page) {
 var url=new Array();
 url[0]="about/index.html";
 url[1]="skills/index.html";
-url[2]="http://stumay1992.wordpress.com/";
+url[2]="http://stumay.net/blog/";
 url[3]="projects/index.html";
 activeButton = 0;
 window.location=url[page];
