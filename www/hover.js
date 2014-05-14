@@ -16,10 +16,10 @@ var button = document.getElementById(hotspot);
 }
 
 function timing_function(){
-   var b1 = document.getElementById("1");
-   var b2 = document.getElementById("2");
-   var b3 = document.getElementById("3");
-   var b4 = document.getElementById("4");
+   var b1 = document.getElementById("b1");
+   var b2 = document.getElementById("b2");
+   var b3 = document.getElementById("b3");
+   var b4 = document.getElementById("b4");
    var buttons = [b1,b2,b3,b4];
    for ( var i = 0; i < 4 ; i ++){
       if(activeButton == i+1){
