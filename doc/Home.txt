@@ -26,4 +26,7 @@ When the curson leaved the domain, the button will return to center.
 If a mouse over action occurs for a second, the background picture will change accordingly.
 When a button is clicked, the other buttons will sink to the bottom of the screen, once they are on the bottom, a timer will run for a second and the redirection will occur.
 
-Fun fact. This project has taken 4:29 man hours so far...
+I'm going to add some picture interactivity to the skills page as well as make an index redirection for mobile hosts since javascript is terrible on a slow mobile without a mouse.
+I'm thinking
+mobile home page v1.1.0
+skills page can be a few versions in itself
