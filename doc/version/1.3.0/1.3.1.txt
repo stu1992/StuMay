@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-05-21T00:24:41+10:00
+
+====== 1.3.1 ======
+Created Wednesday 21 May 2014
+
+there is a bug that allows the cursor to bring a button down to bellow the page height and scale everything to a degree
