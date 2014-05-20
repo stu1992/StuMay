@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-05-20T21:02:58+10:00
+
+====== 1.2.0 ======
+Created Tuesday 20 May 2014
+
+each set of skills will be on a seperate box, will design style properties for that
+will also create a class for images on the right hand side

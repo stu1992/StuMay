@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-05-20T20:56:25+10:00
+
+====== 1.1.0 ======
+Created Tuesday 20 May 2014
+
+have redirection for mobile hosts, to another index page with the same 4 buttons
+virtically positioned in a table
+each div 25% height
