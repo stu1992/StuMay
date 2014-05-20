@@ -4,7 +4,7 @@ setTimeout(function(){redirect(page)},1000);
 }
 function redirect(page) {
 var url=new Array();
-url[0]="about/index.html";
+url[0]="http://stumay.net/blog/?page_id=5";
 url[1]="skills/index.html";
 url[2]="http://stumay.net/blog/";
 url[3]="projects/index.html";
