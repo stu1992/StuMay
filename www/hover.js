@@ -1,5 +1,19 @@
 // timing is always on
 setInterval(timing_function,20);
+// testing for mobile devices from http://stackoverflow.com/questions/11381673/javascript-solution-to-detect-mobile-browser
+ if( navigator.userAgent.match(/Android/i)
+ || navigator.userAgent.match(/webOS/i)
+ || navigator.userAgent.match(/iPhone/i)
+ || navigator.userAgent.match(/iPad/i)
+ || navigator.userAgent.match(/iPod/i)
+ || navigator.userAgent.match(/BlackBerry/i)
+ || navigator.userAgent.match(/Windows Phone/i)
+ ){
+    window.location="mobile.html";
+  }
+ else {
+    // we're where we need to be
+  }
 // global vars
 var activeButton =0;
 var mouseY = 0;
