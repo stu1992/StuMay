@@ -50,7 +50,7 @@ function timing_function(){
 function delta(button, relatedObject){
    var roof = 0;
    var center = 300;
-   var floor = 600;
+   var floor = 550;
    if(relatedObject == "mouse"){
       var initPosition = (button.getBoundingClientRect().top);
       if(initPosition > 550){
