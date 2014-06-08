@@ -6,3 +6,5 @@ Creation-Date: 2014-05-21T00:24:41+10:00
 Created Wednesday 21 May 2014
 
 there is a bug that allows the cursor to bring a button down to bellow the page height and scale everything to a degree
+
+made adjustments to the 'floor' of the javascript algorythms so the button will stop before it goes out of bounds
