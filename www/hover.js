@@ -53,8 +53,8 @@ function delta(button, relatedObject){
    var floor = 600;
    if(relatedObject == "mouse"){
       var initPosition = (button.getBoundingClientRect().top);
-      if(initPosition > 600){
-         initPosition = 600;
+      if(initPosition > 550){
+         initPosition = 550;
       }else if(initPosition <50){
          initPosition = 50;
       }
