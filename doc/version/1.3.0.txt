@@ -7,3 +7,7 @@ Created Tuesday 20 May 2014
 
 will give each image box a picture representing a skill and make it small but not scaled, when the 'mask' is scaled up, it will reveal the image
 this transition will be animated with a 200ms or so delay
+
+I have this working for the most park.
+
+turns out that at least with my skill level, you can't easily 'place' a scaled image and I have set the images up in a row to make it easy to toggle them
