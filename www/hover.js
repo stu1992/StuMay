@@ -84,5 +84,8 @@ function delta(button, relatedObject){
       if(initPosition < floor){
          return initPosition+5;
       }
+      else{
+         return floor;
+      }
    }
 }
