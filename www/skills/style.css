@@ -154,3 +154,70 @@ height: 90%;
 	border-radius:10px;
 box-shadow: 5px 5px 5px #5d75ab;
 }
+
+#php
+{
+z-index: 0;
+transition: 0.5s;
+-moz-transition: 0.5s;
+-webkit-transition: 0.5s;
+
+position: absolute;
+top: 600px;
+left: 35%;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	border-color: black;
+	border: solid 3px;
+width: 100px;
+height: 100px;
+}
+
+
+#php:hover
+{
+z-index: 1;
+top: 150px;
+left: 35%;
+width: 63%;
+height: 90%;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+box-shadow: 5px 5px 5px #5d75ab;
+}
+
+#javascript
+{
+z-index: 0;
+transition: 0.5s;
+-moz-transition: 0.5s;
+-webkit-transition: 0.5s;
+
+position: absolute;
+top: 725px;
+left: 35%;
+	-moz-border-radius:50px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	border-color: black;
+	border: solid 3px;
+width: 100px;
+height: 100px;
+}
+
+
+#javascript:hover
+{
+z-index: 1;
+top: 250px;
+left: 35%;
+width: 63%;
+height: 90%;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+box-shadow: 5px 5px 5px #5d75ab;
+}
+
