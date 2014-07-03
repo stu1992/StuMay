@@ -1,5 +1,6 @@
 // timing is always on
 setInterval(timing_function,20);
+var window_height = document.getElementById("wrapper").offsetHeight;
 // testing for mobile devices from http://stackoverflow.com/questions/11381673/javascript-solution-to-detect-mobile-browser
  if( navigator.userAgent.match(/Android/i)
  || navigator.userAgent.match(/webOS/i)
@@ -49,8 +50,8 @@ function timing_function(){
 
 function delta(button, relatedObject){
    var roof = 0;
-   var center = 300;
-   var floor = 550;
+   var center = (window_height-100)/2;//300;
+   var floor = window_height-100;//550;
    if(relatedObject == "mouse"){
       var initPosition = (button.getBoundingClientRect().top);
       if(initPosition > floor){
