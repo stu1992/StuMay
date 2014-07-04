@@ -54,8 +54,27 @@ alert($(document).width());
 <div id="hidden"><img src="jpg/about.PNG" width="0" height="0"><img src="jpg/skills.PNG" width="1" height="0"><img src="jpg/blog.PNG" width="0" height="0"><img src="jpg/projects.PNG" width="0" height="0"><img src="jpg/home.PNG" width="0" height="0"><a href="http://stumay.net/blog/"></a><a href="skills/index.html"></a><a href="projects/index.html"></a><a href="mobile.html"></a>
 </div>
 <script>
-alert(document.getElementById("wrapper"));
+var window_width = document.getElementById("wrapper").offsetWidth;
+$("b1").css({"padding": "500px 500px"}); //32;
+var b1_initial = 32;
+var b2_initial = 22;
+var b3_initial = 40;
+var b4_initial = 4;
+var number_of_buttons = 4;
+var button_draft = 4;
+var button_width = 50;
+var hotspot = (window_width / number_of_buttons) - button_draft;
+var b1_padding = (hotspot - (button_width + b1_initial))/2;
+$("#b1").css({"padding": "10px " + b1_padding + "px"});
+alert(b1_padding);
+var b2_padding = (hotspot - (button_width + b2_initial))/2;
+$("#b2").css({"padding": "10px " + b2_padding + "px"});
+var b3_padding = (hotspot - (button_width + b3_initial))/2;
+$("#b3").css({"padding": "10px " + b3_padding + "px"});
+var b4_padding = (hotspot - (button_width + b4_initial))/2;
+$("#b4").css({"padding": "10px " + b4_padding + "px"});
 </script>
+
                 <script type="text/javascript" src="buttons.js"></script> 
                 <script type="text/javascript" src="hover.js"></script>	
 	</body>
