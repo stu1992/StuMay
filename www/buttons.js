@@ -8,10 +8,9 @@ url[0]="http://stumay.net/blog/?page_id=5";
 url[1]="skills/index.html";
 url[2]="http://stumay.net/blog/";
 url[3]="projects/index.html";
-activeButton = 0;
+setTimeout(function(){activeButton = 0;},1000); // adding a delay for page to redirect before buttons return to center
 window.location=url[page];
 }
-
 function swapImage(page) {
 var url = new Array();
 url[0]="jpg/about.PNG";
