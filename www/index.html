@@ -6,7 +6,6 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
-alert($(document).width());
 </script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -61,17 +60,17 @@ var b2_initial = 22;
 var b3_initial = 40;
 var b4_initial = 4;
 var number_of_buttons = 4;
-var button_draft = 4;
-var button_width = 50;
+var button_draft = 8;
+var button_width = 10;
 var hotspot = (window_width / number_of_buttons) - button_draft;
-var b1_padding = (hotspot - (button_width + b1_initial))/2;
+
+var b1_padding = (hotspot - $("#b1").width())/2;
 $("#b1").css({"padding": "10px " + b1_padding + "px"});
-alert(b1_padding);
-var b2_padding = (hotspot - (button_width + b2_initial))/2;
+var b2_padding = (hotspot - $("#b2").width())/2;
 $("#b2").css({"padding": "10px " + b2_padding + "px"});
-var b3_padding = (hotspot - (button_width + b3_initial))/2;
+var b3_padding = (hotspot - $("#b3").width())/2;
 $("#b3").css({"padding": "10px " + b3_padding + "px"});
-var b4_padding = (hotspot - (button_width + b4_initial))/2;
+var b4_padding = (hotspot - $("#b4").width())/2;
 $("#b4").css({"padding": "10px " + b4_padding + "px"});
 </script>
 
