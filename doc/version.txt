@@ -7,3 +7,4 @@ Created Friday 11 April 2014
 
 currently [[version:1.3.0|1.3.0]]
 next milestone: [[version:1.4.0|1.4.0]]
+I'm considering making a branch with some javascript delays removed. It's become pretty clear that people don't really care for it but I can't really decided how far I should take it
