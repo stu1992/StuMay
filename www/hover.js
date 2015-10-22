@@ -21,7 +21,7 @@ var mouseY = 0;
 
 function hover_update(event, hotspot)
 {
-   if(activeButton==5){
+   if(activeButton==6){
       return;
    }
 mouseY=event.clientY;
@@ -35,11 +35,12 @@ function timing_function(){
    var b2 = document.getElementById("b2");
    var b3 = document.getElementById("b3");
    var b4 = document.getElementById("b4");
-   var buttons = [b1,b2,b3,b4];
-   for ( var i = 0; i < 4 ; i ++){
+   var b5 = document.getElementById("b5");
+   var buttons = [b1,b2,b3,b4,b5];
+   for ( var i = 0; i < 5 ; i ++){
       if(activeButton == i+1){
       buttons[i].style.top = delta(buttons[i], "mouse");
-      }else if(activeButton == 5){
+      }else if(activeButton == 6){
       buttons[i].style.top = delta(buttons[i], "floor");
       }else{
        buttons[i].style.top = delta(buttons[i], "center");

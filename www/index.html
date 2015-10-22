@@ -21,45 +21,51 @@
 
         </head>
 	<body>
-	<div id="wrapper">
-			<table id="t" border="0">	
-				<tr>
-					<td>
-                                             <div class="hotspot" onmousemove="hover_update(event, 1)" onmouseout="hover_update(event, 0)">
-						<input class="button" id="b1" type="button" value="Business Card" onclick="moveTo(0)" onmouseover="image(0)" onmouseout="image(4)" />
-                                             </div>
-					</td>
+        <div id="wrapper">
+<table id="t" border="0">	
+<tr>
+<td>
+<div class="hotspot" onmousemove="hover_update(event, 1)" onmouseout="hover_update(event, 0)">
+<input class="button" id="b1" type="button" value="Business Card" onclick="moveTo(0)" onmouseover="image(0)" onmouseout="image(0)" />
+</div>
+</td>
 					
-					<td>
-                                              <div class="hotspot" onmousemove="hover_update(event, 2)"onmouseout="hover_update(event, 0)">
-						<input class="button" id="b2" type="button" value="English tutoring" onclick="moveTo(1)" onmouseover="image(1)" onmouseout="image(4)" />
-                                             </div>
-					</td>
+<td>
+<div class="hotspot" onmousemove="hover_update(event, 2)"onmouseout="hover_update(event, 0)">
+<input class="button" id="b2" type="button" value="Tutoring" onclick="moveTo(1)" onmouseover="image(1)" onmouseout="image(0)" />
+</div>
+</td>
 					
-					<td>
-                                             <div class="hotspot" onmousemove="hover_update(event, 3)"onmouseout="hover_update(event, 0)">
-						<input class="button" id="b3" type="button" value="Post Cards" onclick="moveTo(2)" onmouseover="image(2)" onmouseout="image(4) "/>
-                                             </div>
-					</td>
+<td>
+<div class="hotspot" onmousemove="hover_update(event, 3)"onmouseout="hover_update(event, 0)">
+<input class="button" id="b3" type="button" value="Code" onclick="moveTo(2)" onmouseover="image(2)" onmouseout="image(0) "/>
+</div>
+</td>
 					
-					<td>
-                                             <div class="hotspot" onmousemove="hover_update(event, 4)"onmouseout="hover_update(event, 0)">
-						<input class="button" id="b4" type="button" value="ZeroSigmaKay" onclick="moveTo(3)" onmouseover="image(3)" onmouseout="image(4)" />
-                                             </div>
-					</td>
-				</tr>
-			</table>
+<td>
+<div class="hotspot" onmousemove="hover_update(event, 4)"onmouseout="hover_update(event, 0)">
+<input class="button" id="b4" type="button" value="ZeroSigmaKay" onclick="moveTo(3)" onmouseover="image(3)" onmouseout="image(0)" />
+</div>
+</td>
+<td>
+<div class="hotspot" onmousemove="hover_update(event, 5)"onmouseout="hover_update(event, 0)">
+<input class="button" id="b5" type="button" value="Words" onclick="moveTo(4)" onmouseover="image(4)" onmouseout="image(0)" />
+</div>
+</td>
+</tr>
+</table>
 		</div>
 <div id="hidden"><img src="jpg/business.PNG" width="0" height="0"><img src="jpg/English_tutoring.PNG" width="1" height="0"><img src="jpg/postcards.PNG" width="0" height="0"><img src="jpg/sigma.PNG" width="0" height="0"><a href="postcards"></a><a href="business"></a><a href="http://www.zerosigmakay.com"></a><a href="http://www.onetooneenglishtutoring.com.au"></a>
 </div>
 <script>
 var window_width = document.getElementById("wrapper").offsetWidth;
 $("b1").css({"padding": "500px 500px"}); //32;
-var b1_initial = 32;
+var b1_initial = 32; // taking the length of text into account
 var b2_initial = 22;
 var b3_initial = 40;
 var b4_initial = 4;
-var number_of_buttons = 4;
+var b5_initial = 20;
+var number_of_buttons = 5;
 var button_draft = 16;
 var button_width = 10;
 var hotspot = (window_width / number_of_buttons) - button_draft;
@@ -72,6 +78,8 @@ var b3_padding = (hotspot - $("#b3").width())/2;
 $("#b3").css({"padding": "10px " + b3_padding + "px"});
 var b4_padding = (hotspot - $("#b4").width())/2;
 $("#b4").css({"padding": "10px " + b4_padding + "px"});
+var b5_padding = (hotspot - $("#b5").width())/2;
+$("#b5").css({"padding": "10px " + b5_padding + "px"});
 </script>
 
                 <script type="text/javascript" src="buttons.js"></script> 
