@@ -6,7 +6,7 @@ function redirect(page) {
 var url=new Array();
 url[0]="/business";
 url[1]="http://onetooneenglishtutoring.com.au";
-url[2]="/code";
+url[2]="https://github.com/stu1992";
 url[3]="http://zerosigmakay.com";
 url[4]="/words";
 setTimeout(function(){activeButton = 0;},1000); // adding a delay for page to redirect before buttons return to center
